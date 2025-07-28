@@ -40,7 +40,7 @@ public class Gameboard extends JPanel implements KeyListener {
         grid.createGrid();
         ball.add(new Ball(ballSpeedX, BallSpeedY, WINDOW_WIDTH / 2, (int) (WINDOW_HEIGHT * 0.8)));
         paddle = new Paddle(200);
-        System.out.println(ball.getFirst() + "call");
+        System.out.println(ball.get(0) + "call");
         powerUp.add(new PowerUp(100, 100));
 
     }
